@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editTextValor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o primeiro número"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextValor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o segundo número"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/buttonSoma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/buttonSubtracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:id="@+id/buttonMultiplicacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="×"
+            android:layout_marginStart="10dp" />
+
+        <Button
+            android:id="@+id/buttonDivisao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="÷"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

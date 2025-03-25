@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione um exercício:"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/buttonMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 3 - Cadastro de Usuário" />
+
+
+    <Button
+        android:id="@+id/buttonEx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 3 - Cadastro de Usuário" />
+
+
+    <Button
+        android:id="@+id/buttonEx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 3 - Cadastro de Usuário" />
+
+    <Button
+        android:id="@+id/buttonEx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 4 - Nome com CheckBoxes"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/buttonEx5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 5 - Preferências"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
